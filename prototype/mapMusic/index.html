@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For employees</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="map_before" onclick="move()">
+                <img src="tablet/map_page/map_bg_final.png">
+            </div>
+            <!-- <div class="ecs" onclick="goBack()"><img src="tablet/map_page/ecsBtn.png"></div> -->
+        
+            <script>
+                function move(){
+                    document.querySelector(".map_before").classList.add("go");
+                }
+                function goBack(){
+                    document.querySelector(".go").classList.add("goBack");
+                }
+            </script>
+
+
+            <div class="musicHeader">
+                <img src="tablet/music_page/music_header.png">
+            </div>
+            <div class="musicBox">
+                <img src="tablet/music_page/music_box_bg.png">
+                <div id="musicTitle"><img src="tablet/music_page/music_title.png"></div>
+                <div class="music_BoxElem">
+                    <div id="leftBtn"><img src="tablet/music_page/music_LeftBtn.png"></div>
+                    <div id="stopBtn"><img src="tablet/music_page/music_stopBtn.png"></div>
+                    <div id="rightBtn"><img src="tablet/music_page/music_RightBtn.png"></div>
+                </div>
+                <div class="musicTime"><img src="tablet/music_page/music_timeBar.png"></div>
+            </div>
+            <div class="musicList">
+                <div id="bar1"><img src="tablet/music_page/music_contentBar1.png"></div>
+                <div id="bar2"><img src="tablet/music_page/music_contentBar2.png"></div>
+                <div id="bar3"><img src="tablet/music_page/music_contentBar3.png"></div>
+                <div id="bar4"><img src="tablet/music_page/music_contentBar4.png"></div>
+                <div id="bar5"><img src="tablet/music_page/music_contentBar5.png"></div>                
+                <div class="scroll">
+                    <div id="scrollBg"><img src="tablet/music_page/scrollbar_bg.png"></div>
+                    <div id="scrollActive"><img src="tablet/music_page/scrollbar_active.png"></div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</body>
+</html>
