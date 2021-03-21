@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1080px;
+    max-height: 1920px;
+}
+
+body{
+    background-image: url(Kiosk_2/kiosk_bg2.png);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.title{
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+.question{
+    text-align: center;
+    margin-top: 330px;
+    position: relative;
+}
+
+.imgBox{
+    float: left;   
+    position: relative;
+    text-align: center;
+    margin: 50px 100px;
+}
+
+button{
+    margin-left: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.hiking:hover, .beach:hover, .camping:hover, .theme:hover{
+    background-color: rgb(0, 174, 255);
+}
+
+footer p{
+    height: 1200px;
+}
