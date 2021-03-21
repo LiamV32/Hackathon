@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position:relative;
+    display: flex;
+    background-image: url(resources2/tablet_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right {
+    position:relative;
+    right: 0;
+    left: 150px;
+
+}
+audio {
+    width: 400px;
+    height: 400px;
+}
+.player {
+    background-image: URL(resources/music_box_bg.png);
+    background-repeat: no-repeat;
+}
+.playlist {
+    width: 400px;
+    background: rgb(150,150,150,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+.map {
+    background: transparent;
+    padding: 50px;
+}
+img {
+    margin: 50px;
+    width: 700px;
+    height: 500px;
+}

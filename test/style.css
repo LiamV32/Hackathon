@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width:1080px;
+    max-height: 1920px;
+}
+body{
+    background-image: url(resources/kiosk_bg2.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-position-y: 1.5%;
+    color: rgb(255,255,255,0.7);
+    position:relative;
+    justify-content: center;
+    text-align: center;
+}
+header {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-size: 5em;
+    margin: 5px;
+}
+ header h2 {
+    font-size: 3.5em;
+}
+#q {
+    color: #fff;
+    font-size: 2em;
+}
+.cards {
+    position:relative;
+    display: flex;
+    margin: 10px 10px;
+    overflow: scroll;
+}
+.container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.container .card{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 5%;
+}
+
+.container .card .image {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    transition: 0.5s ease-in-out;
+}
+.container .card:hover .image{
+    transform: translateY(-50px);
+}
+.container .card .image img {
+    max-width: 150%;
+    margin: 0  0 20px;
+    transition: 0.5s ease-in-out;
+}
+.container .card:hover .image img{
+    transform: translateY( -20px) ;
+}
+
